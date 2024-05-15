@@ -1,12 +1,11 @@
 const number = [[10,0],[3,5],[5,8]];
 
 const aboutToBus = (num)=>{
-    const sort = num.reduce((a,b)=>a-b);
+    const sort = num.reduce((Toatal,[In-Out])=>In-Out,0,);
     return sort;
 }
 
 console.log(aboutToBus(number));
-
 
 
 
