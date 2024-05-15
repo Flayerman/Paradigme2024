@@ -11,7 +11,9 @@ public class Membre extends Personne {
 	}
 
 	public void AfficherMembre() {
-		afficherDetails();
+		System.out.println("Nom : " + this.nom);
+		System.out.println("Prénom : " + this.prénom);
+		System.out.println("Id : " + this.id);
 		System.out.println("Date d'adhésion : " + this.dateAdhesion);
 		System.out.println("Statut : " + this.statut);
 	}
